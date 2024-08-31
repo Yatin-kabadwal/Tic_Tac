@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:orientation="vertical"
     android:gravity="center"
     android:padding="16dp">
@@ -14,15 +15,15 @@
         android:columnCount="3"
         android:layout_gravity="center">
 
-        <Button android:id="@+id/button0" style="@style/ticTacToeButton"/>
-        <Button android:id="@+id/button1" style="@style/ticTacToeButton"/>
-        <Button android:id="@+id/button2" style="@style/ticTacToeButton"/>
-        <Button android:id="@+id/button3" style="@style/ticTacToeButton"/>
-        <Button android:id="@+id/button4" style="@style/ticTacToeButton"/>
-        <Button android:id="@+id/button5" style="@style/ticTacToeButton"/>
-        <Button android:id="@+id/button6" style="@style/ticTacToeButton"/>
-        <Button android:id="@+id/button7" style="@style/ticTacToeButton"/>
-        <Button android:id="@+id/button8" style="@style/ticTacToeButton"/>
+        <Button android:id="@+id/button0" style="@style/ticTacToeButton" android:textColor="@color/black"/>
+        <Button android:id="@+id/button1" style="@style/ticTacToeButton" android:textColor="@color/black"/>
+        <Button android:id="@+id/button2" style="@style/ticTacToeButton" android:textColor="@color/black"/>
+        <Button android:id="@+id/button3" style="@style/ticTacToeButton" android:textColor="@color/black"/>
+        <Button android:id="@+id/button4" style="@style/ticTacToeButton" android:textColor="@color/black"/>
+        <Button android:id="@+id/button5" style="@style/ticTacToeButton" android:textColor="@color/black"/>
+        <Button android:id="@+id/button6" style="@style/ticTacToeButton" android:textColor="@color/black"/>
+        <Button android:id="@+id/button7" style="@style/ticTacToeButton" android:textColor="@color/black"/>
+        <Button android:id="@+id/button8" style="@style/ticTacToeButton" android:textColor="@color/black"/>
 
     </GridLayout>
 
