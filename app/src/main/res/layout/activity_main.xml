@@ -1,0 +1,36 @@
+<!-- res/layout/activity_main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="3"
+        android:layout_gravity="center">
+
+        <Button android:id="@+id/button0" style="@style/ticTacToeButton"/>
+        <Button android:id="@+id/button1" style="@style/ticTacToeButton"/>
+        <Button android:id="@+id/button2" style="@style/ticTacToeButton"/>
+        <Button android:id="@+id/button3" style="@style/ticTacToeButton"/>
+        <Button android:id="@+id/button4" style="@style/ticTacToeButton"/>
+        <Button android:id="@+id/button5" style="@style/ticTacToeButton"/>
+        <Button android:id="@+id/button6" style="@style/ticTacToeButton"/>
+        <Button android:id="@+id/button7" style="@style/ticTacToeButton"/>
+        <Button android:id="@+id/button8" style="@style/ticTacToeButton"/>
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset Game"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>

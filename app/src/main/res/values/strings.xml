@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TicTacToeApp</string>
+
+<style name="ticTacToeButton">
+    <item name="android:layout_width">100dp</item>
+    <item name="android:layout_height">100dp</item>
+    <item name="android:textSize">24sp</item>
+    <item name="android:layout_margin">4dp</item>
+</style>
+</resources>
